@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+/* body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+} */
+
+/* Login + */
+
+/* body.login {
+    background: #EEF5F9 url(../images/login-bkg.jpg) center top no-repeat;
+    background-size: cover;
+} */
+
+.slp-form-signin {
+    max-width: 400px;
+    padding: 15px;
+    margin: 200px auto 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#fff;
+}
+
+.slp-form-signin .form-control {
+    padding: 2px 6px;
+    height: 26px;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.slp-slp-form-signin h2 {
+    text-transform: uppercase;
+    font-size:22px;
+}
+.slp-form-signin label {
+    color:#fff;
+}
+/* Login - */
+
+/* BS Classes + */
+.slp-h1, .slp-h2, .slp-3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.slp-text-center {
+    text-align: center;
+}
+.slp-sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.slp-form-control {
+    display: block;
+    width: 96%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-colorease-in-out .15s, -webkit-box-shadowease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-colorease-in-out .15s, box-shadowease-in-out .15s;
+}
+
+.slp-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.slp-btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.slp-btn-primary.active, .slp-btn-primary.focus, .slp-btn-primary:active, .slp-btn-primary:focus, .slp-btn-primary:hover, .slp-open>.slp-dropdown-toggle.slp-btn-primary {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+.slp-btn-block {
+    display: block;
+    width: 100%;
+}
+/* BS Classes - */
+
