@@ -1,51 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500');
 
-/* body {
+.slw-login-form-bg {
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
     color: #333;
-} */
-
-/* Login + */
-
-/* body.login {
-    background: #EEF5F9 url(../images/login-bkg.jpg) center top no-repeat;
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
-} */
-
-.slp-form-signin {
+}
+.slw-form-signin {
     max-width: 400px;
     padding: 15px;
     margin: 200px auto 0;
     background-color: rgba(0, 0, 0, 0.8);
     color:#fff;
+
 }
 
-.slp-form-signin .form-control {
+.slw-form-signin .form-control {
     padding: 2px 6px;
     height: 26px;
     font-size: 14px;
     margin-bottom: 1rem;
 }
 
-.slp-slp-form-signin h2 {
+.slw-form-signin h2 {
     text-transform: uppercase;
     font-size:22px;
 }
-.slp-form-signin label {
+.slw-form-signin label {
     color:#fff;
 }
 /* Login - */
 
 /* BS Classes + */
-.slp-h1, .slp-h2, .slp-3, h1, h2, h3 {
+.h1, .h2, .h3, h1, h2, h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.slp-text-center {
+.slw-text-center {
     text-align: center;
 }
-.slp-sr-only {
+.slw-only {
     border: 0;
     clip: rect(0, 0, 0, 0);
     height: 1px;
@@ -55,11 +51,12 @@
     position: absolute;
     width: 1px;
 }
-.slp-form-control {
+.slw-form-control {
     display: block;
-    width: 96%;
+    width: 100%;
     padding: 6px 12px;
     font-size: 14px;
+    margin-bottom: 15px;
     line-height: 1.42857143;
     color: #555;
     background-color: #fff;
@@ -73,7 +70,7 @@
     transition: border-colorease-in-out .15s, box-shadowease-in-out .15s;
 }
 
-.slp-btn {
+.slw-btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
@@ -94,17 +91,17 @@
     border: 1px solid transparent;
     border-radius: 4px;
 }
-.slp-btn-primary {
+.slw-btn-primary {
     color: #fff;
     background-color: #337ab7;
     border-color: #2e6da4;
 }
-.slp-btn-primary.active, .slp-btn-primary.focus, .slp-btn-primary:active, .slp-btn-primary:focus, .slp-btn-primary:hover, .slp-open>.slp-dropdown-toggle.slp-btn-primary {
+.slw-btn-primary.active, .slw-btn-primary.focus, .slw-btn-primary:active, .slw-btn-primary:focus, .slw-btn-primary:hover {
     color: #fff;
     background-color: #286090;
     border-color: #204d74;
 }
-.slp-btn-block {
+.slw-btn-block {
     display: block;
     width: 100%;
 }
