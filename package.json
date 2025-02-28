@@ -1,6 +1,6 @@
 {
     "name": "simple-login-widget",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "description": "simple login widget",
     "main": "dist/index.js",
     "scripts": {
